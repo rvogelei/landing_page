@@ -1,0 +1,123 @@
+
+.header {
+    justify-content: center;
+    width: auto;
+    padding: 0 auto;
+    background-image: linear-gradient(#1A1713,#544C3F);
+    border-radius: 25px 25px 0 0;
+}
+  
+.Navbar {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 50px 10% 50px 10%;
+   gap: 50px;
+   border-radius: 25px;}
+
+.link {
+    padding: 0 10px;
+    max-width: 100px;
+
+}
+
+.logo_image {
+    max-width: 500px;
+    max-height: 100px;
+    border: 5px solid white;
+    border-radius: 25px;
+}
+
+.maincontainer {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px 10% 50px 10%;
+}
+  
+.maintext { 
+    max-width: 400px;
+    height: auto;
+    justify-content: start;
+    background-color: #D1CBC1;
+    padding: 20px;
+    border-radius: 25px;
+    border: 5px solid #FCFCFC ;
+  }
+
+
+.maintext h1{
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    }
+
+.maintext div{
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    }
+
+.main_image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border:#544C3F ;
+}
+
+.main_text {
+    font-family: 'Indie Flower', cursive;
+    font-size: 48px;
+    font-weight: bolder;
+    color:rgb(7, 0, 0);}    
+
+
+.flex-container_random {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: #BBB2A4;
+    height: auto;
+    width:auto;
+    padding: 40px 20px;
+
+    } 
+.flex-container_random h2 {
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
+
+.flex-container_random_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    column-gap: 2%;
+    row-gap: 20px;
+
+    }
+
+.imagebox {
+    height:300px;
+    width:300px;
+    border: 5px solid #FCFCFC;
+    padding: 15px;
+    font-weight: bold;
+   
+}
+
+.images {
+    height: 200px;
+    width: 200px;
+    padding-bottom: 5px;
+}
+
+.imagebox h6 {
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    }
